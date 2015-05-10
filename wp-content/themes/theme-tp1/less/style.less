@@ -1,0 +1,14 @@
+@base-font-size: 15px;
+
+.box-shadow(@style, @c) when (iscolor(@c)) {
+  -webkit-box-shadow: @style @c;
+     -moz-box-shadow: @style @c;
+          box-shadow: @style @c;
+}
+.box-shadow(@style, @alpha: 50%) when (isnumber(@alpha)) {
+  .box-shadow(@style, rgba(0, 0, 0, @alpha));
+}
+
+div.box {
+  .box-shadow(1px 1px 3px, .5)
+}

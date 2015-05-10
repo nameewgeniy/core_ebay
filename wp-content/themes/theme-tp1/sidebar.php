@@ -1,0 +1,1 @@
+<?php    $args = array(        'orderby' => 'rand',        'number' => '8',    );    $categories = get_terms('catproducts', $args);    foreach($categories as $cat)    {        var_dump($cat);    }

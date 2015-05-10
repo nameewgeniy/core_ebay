@@ -1,0 +1,1 @@
+<?phpif ( function_exists('dynamic_sidebar') )    dynamic_sidebar('Banners_ebay');

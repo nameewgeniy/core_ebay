@@ -1,0 +1,245 @@
+/**
+ * Theme Name: TopGadgetsMarket
+ * Theme URI: http://mozhnovse.org
+ * Description: eBay Affiliate tp1
+ * Author: Eugeny Nakapyuk
+ * Author URI: http://mozhnovse.org
+ * Version: 1.0
+ */
+html, body  {height: 100%; min-width: 400px;}
+.wrap {min-height: 100%; padding-bottom: 240px; padding-right: 20px; padding-left: 20px;}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"), url("http://themes.googleusercontent.com/static/fonts/opensans/v8/K88pR3goAWT7BTt32Z01mz8E0i7KZn-EPnyo3HZu7kw.woff") format("woff");
+}
+p, h1, h2, h3, h4, h5, a {font-family: "Open Sans";  }
+/*Home page */
+/* ########
+	HEADER
+########### */
+.main-content {max-width: 1176px; margin: 0 auto; border-top: 5px solid #00B2B7; margin-top: 5px; padding-left: 0; padding-right: 0;}
+.logo {padding-top: 30px; padding-left: 0px;}
+.header {padding-left: 0;}
+.sub-search {width: 60px; height: 40px; background: #F77B7D; border: 0; font-size: 20px; color: #fff; position: absolute; top: 0; right: 0;}
+.div-search {padding-right: 0; padding-top: 37px; }
+.search {border: 1px solid #dddddd; height: 40px; width: 100%; padding-right: 60px; font-size: 20px;}
+.search-form {position: relative;}
+/* ########
+	MENU
+########### */
+.menu {padding: 0; border-top: dotted 3px #dddddd; border-bottom: dotted 3px #dddddd; height: 79px; margin-top: 20px; }
+.menu div {padding: 0;}
+.ul-menu {width: 100%; height: 100%; padding: 0; margin: 0; list-style: none;}
+.ul-menu li {line-height: 51px; width: 175px; height: 55px; list-style: none; margin: 10px 0 0 37px; border: 1px solid #ddd; float: right;}
+.ul-menu li a {display: block; text-align: center; font-size: 24px; color: #000;}
+.ul-menu li a:hover,.ul-menu li a:focus, .ul-menu li a:active{color: #F77B7D;}
+.catalog {width: 100%; height:55px; background: #00b2b7; line-height: 51px; color: #fff; margin-top: 10px; font-size: 24px; text-align: center; }
+.categories-item {padding: 0; padding-top: 10px;}
+.categories-item .sidebar-featured a, .items-cat a {border: 1px #ddd solid; margin: 10px 0; display:block; width: 100%; height: 46px; font-size: 18px; color: #000; text-align: center; line-height: 43px; background: #fff; }
+.main-img {padding-right: 0; padding-top: 19px; min-height: 350px; }
+.main-img-cont img, .cat-big-item img{width: 100%;}
+.cat-big-item {overflow: hidden; border-top: dotted 3px #ddd; border-bottom:  dotted 3px #ddd; padding-right: 0; padding-bottom: 10px}
+.cat-big-item div{height: 233px; position: relative;}
+.cat-big-item div a{display: block; width: 100%; height: 100%; overflow: hidden}
+.cat-big-item {padding-top: 20px; margin-top: 20px; }
+.buttom-descr {display: block; background: #F77B7D;height:55px; width: 100%; color: #fff; text-align: center; font-size: 17px; line-height: 50px; position: absolute; bottom: 0; }
+.cat-big-item div a:hover, .cat-big-item div a:active, .cat-big-item div a:focus {text-decoration: none; }
+.sidebar-featured a.head {font-weight: bold; color: #fff; background:#00b2b7 }
+div.sid > div {margin: 20px auto !important; }
+/* ########
+	CONTENT
+########### */
+.sidebar-featured {border-top: dotted 3px #ddd; border-bottom: dotted 3px #ddd; }
+.sidebar-featured a.thumbnail {overflow: hidden; height: 166px; position: relative; margin: 0 auto; width: 60%; margin-bottom: 20px !important;}
+.sidebar-featured .cost {display: inline-block;height: 40px; width: 75%; background: #FFC809; color: #fff; font-size: 27px; position: absolute; bottom: 25px; left: 0; text-align: center;  }
+div.bin_hom {clear: both;}
+div.bin_hom > div {margin: 10px auto !important;}
+.main-img-cont
+{
+    overflow: hidden;
+}
+.rslides
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rslides li {height: 350px; overflow: hidden}
+
+.zag-cat
+{
+    width: 100%;
+    height: 55px;
+    background: #fff;
+    color: #00B2B7;
+    font-size: 26px;
+    padding-left: 15px;
+    font-weight: bold;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    line-height: 51px;
+}
+.product
+{
+    padding: 0 10px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+.product .thumbnail
+{
+    border: 0;
+    position: relative;
+    width: 260px;
+    height: 260px;
+    margin: 0 auto;
+}
+.product .thumbnail img
+{
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+.product .cost
+{
+    display: inline-block;
+    height: 40px;
+    width: 50%;
+    background: #F77B7D;
+    color: #fff;
+    font-size: 27px;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    text-align: center;
+}
+.zag-cat
+{
+    clear: both;
+}
+.buy-now
+{
+    display: block;
+    background: #FFC809;
+    color: #fff;
+    font-size: 18px;
+    width: 206px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+}
+.buy-now:hover, .buy-now:active, .buy-now:focus {background: #E4AD00; text-decoration: none; color: #fff;}
+.description-product
+{
+    font-size: 18px;
+    margin: 10px auto;
+    height: 55px;
+    overflow: hidden;
+}
+/* ########
+	FOOTER
+########### */
+#footer
+{
+    height: 240px;
+    width: 100%;
+    margin-top: -240px;
+}
+.footer
+{
+    border-top: 5px solid #00B2B7;
+    max-width: 1176px;
+    height: 210px;
+    padding: 20px;
+    margin: 0 auto;
+    border-bottom: dotted 3px #ddd;
+}
+.footer ul
+{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0;
+}
+.foot-header
+{
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+/* ########
+	PAGE
+########### */
+.main-description-single {width: 100%;  }
+.cat-big-item a
+{
+    position: relative;
+}
+.breadcrumb
+{
+    clear: both;
+    background: #fff;
+}
+.progress
+{
+    max-width: 50%;
+    border-radius: 0;
+}
+.cost-sing
+{
+    color: #F15A24;
+    font-size: 50px;
+    font-weight: bold;
+}
+.img-product
+{
+
+    overflow: hidden;
+}
+.img-product img
+{
+    width: 100%;
+
+}
+.title-product
+{
+    margin-bottom: 20px;
+}
+.description h3
+{
+    border-bottom: 3px dotted #ccc;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.maep_list
+{
+    list-style: none;
+    padding-left: 0;
+}
+.maep_list_name
+{
+    float: left;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.label-info
+{
+    border-radius: 0;
+    font-size: 18px;
+    margin: 10px;
+    display: inline-block;
+}
+.pagination
+{
+    width: 100%;
+    margin: 0px auto;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
